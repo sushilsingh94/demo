@@ -13,7 +13,7 @@ public class DemoException {
 		getDivision(a, b);
 	}
 	
-	public void getDivision(int a, int b) throws CustomException{
+	public  void getDivision(int a, int b) throws CustomException{
 		int value = 0;
 		try{
 			value = a/b;
